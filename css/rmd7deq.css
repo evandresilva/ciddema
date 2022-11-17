@@ -1,0 +1,52 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * neuzeit-grotesk:
+ *   - http://typekit.com/eulas/0000000000000000000178a6
+ *   - http://typekit.com/eulas/0000000000000000000178a7
+ * span:
+ *   - http://typekit.com/eulas/00000000000000003b9b41c9
+ *   - http://typekit.com/eulas/00000000000000003b9b41ca
+ *   - http://typekit.com/eulas/00000000000000003b9b41d1
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-10-10 13:50:22 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=rmd7deq&ht=tk&f=12102.12103.44311.44312.44319&a=1494256&app=typekit&e=css");
+
+@font-face {
+font-family:"neuzeit-grotesk";
+src:url("https://use.typekit.net/af/cde90e/0000000000000000000178a6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/cde90e/0000000000000000000178a6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/cde90e/0000000000000000000178a6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"neuzeit-grotesk";
+src:url("https://use.typekit.net/af/d7bb7b/0000000000000000000178a7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d7bb7b/0000000000000000000178a7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d7bb7b/0000000000000000000178a7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"span";
+src:url("https://use.typekit.net/af/7992db/00000000000000003b9b41c9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/7992db/00000000000000003b9b41c9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/7992db/00000000000000003b9b41c9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"span";
+src:url("https://use.typekit.net/af/c10f4f/00000000000000003b9b41ca/27/l?subset_id=2&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/c10f4f/00000000000000003b9b41ca/27/d?subset_id=2&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/c10f4f/00000000000000003b9b41ca/27/a?subset_id=2&fvd=i2&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"span";
+src:url("https://use.typekit.net/af/3a63d0/00000000000000003b9b41d1/27/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/3a63d0/00000000000000003b9b41d1/27/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/3a63d0/00000000000000003b9b41d1/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-neuzeit-grotesk { font-family: "neuzeit-grotesk",sans-serif; }
+.tk-span { font-family: "span",serif; }
