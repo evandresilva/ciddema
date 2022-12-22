@@ -132,6 +132,16 @@ main {
   align-content: center;
   justify-content: space-between;
 }
+.sm-content {
+  padding: 2rem;
+  margin: 2rem;
+  /* min-height: 24vh; */
+  display: block;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
 .content--auto {
   min-height: 0;
 }
@@ -200,6 +210,25 @@ main {
   font-size: 5vw;
 }
 
+.preview__item-back {
+  grid-area: preview-back;
+  justify-self: self !important;
+  font-size: .857rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 90px;
+  margin-bottom: 1rem;
+  background: url(arrow.2103f144.svg) no-repeat 0 50%;
+}
+.unbutton {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: whitesmoke;
+  cursor: pointer
+}
 .tiles {
   --tiles-height: 52vw;
   height: var(--tiles-height);

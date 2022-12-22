@@ -4,18 +4,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CIDDEMA | BIBLIOTECA</title>
+	<title>Biblioteca CIDDEMA - Livros</title>
 	<meta name="description" content="Scroll animations for image grids powered by Locomotive Scroll">
 	<meta name="keywords" content="locomotive scroll, scroll animation, website, javascript, demo">
 	<meta name="author" content="Codrops">
 	<link rel="shortcut icon" href="favicons/favicon.png">
+	<!-- Temp -->
+	<link rel="stylesheet" type="text/scss" href="css/css-normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/css-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/css-bookblock.css">
+	<link rel="stylesheet" type="text/css" href="css/css-component.css">
+	<!-- End Temp -->
 	<link rel="stylesheet" href="css/rmd7deq.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/1.6.26-webfont.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/css-bookblock.css">
-	<link rel="stylesheet" type="text/css" href="css/css-component.css">
-	<script src="js/modernizr.custom.js"></script>
-	
+
 	<script>document.documentElement.className = "js";
 
 		var supportsCssVars = function supportsCssVars() {
@@ -28,7 +31,7 @@
 	<!-- <script src="js/adpacks-analytics.js"></script> -->
 </head>
 
-<body class="demo-3">
+<body class="">
 	<main id="main" data-scroll-container="">
 		<section id="header" class="content content--auto">
 			<div class="frame">
@@ -36,12 +39,11 @@
 					<a href="index.html" class="navbar-brand">
 						<img src="images/CIDDEMA - Logotipo Original-white.png" style="height: 77.7px;width:288px ;"
 							alt="Logotipo da CIDDEMA">
-
 					</a>
 				</div>
 				<div class="frame__demos">
 					<a href="index.html">Página Inicial</a>
-					<a href="biblioteca.html">Livros</a>
+					<a href="livros.html">Livros</a>
 					<a href="contactos.html">Contactos</a>
 				</div>
 			</div>
@@ -388,28 +390,27 @@
 					</div>
 				</figure>
 			</div>
+			<a class="preview__item-back unbutton" style="opacity: 1;text-align: center; transform: translate(0%, 0px);"><span>Ver Todos</span></a>
+			
 
 		</section>
-		<section class="content">
-			<a class="backtop is-inview"
-				style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 16.6125, 0, 1);">Ver todos livros</a>
-			<div class="frame frame--footer">
-				<a href="" class="frame__demo scroll-backtop">Ir inicio</a>
-				<div class="frame__demos">
-					<a href="index.html" class="frame__demo">Nosso site</a>
-					<a href="index2.html" class="frame__demo">Contactos</a>
-					<a href="index3.html" class="frame__demo frame__demo">Biblioteca</a>
-				</div>
-			</div>
-			</footer>
+		<div class="related">
+			<h3>Biblioteca CIDDEMA</h3>
+			<a href="https://ciddema.org">
+				<!-- <img src="images/07-AnimatedBooks1-300x162.png"> -->
+				<h3>Accessar nosso site</h3>
+			</a>
+			<a href="/contactos.html">
+				<!-- <img src="images/01-3DBookShowcase_Main-300x162.jpg"> -->
+				<h3>Entrar em Contacto</h3>
+			</a>
+			<p style="font-size:0.5rem;">Feito por Evandre Silva com  💖</p>
+		</div>
 	</main>
 	<script src="js/main.js"></script>
 	<script src="js/bookblock.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/bookshelf.js"></script>
-
-
-
 </body>
 
 </html>
